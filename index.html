@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PX food</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <nav>
+    <div class="logo">PX - Food</div>
+    <div class="menu">
+      <a href="#menu">Menu</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="search-bar">
+      <input type="text" id="searchBar" placeholder="Search...">
+      <button id="searchBtn">Search</button>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="meal-card" id="mealContainer"></div>
+  </div>
+
+  <div id="modal-overlay" onclick="closeModal()"></div>
+  <div id="modal">
+    <button class="close-btn" onclick="closeModal()">&times;</button>
+    <div id="modal-content"></div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 PX - Food. All Rights Reserved.</p>
+    <div class="social-links">
+      <a href="https://facebook.com/Piaaxi" target="_blank" title="Facebook">
+        <i class="fa fa-facebook"></i>
+      </a>
+      <a href="https://x.com/Piaaxi" target="_blank" title="Twitter">
+        <i class="fa fa-twitter"></i>
+      </a>
+      <a href="https://instagram.com/Piaaxi" target="_blank" title="Instagram">
+        <i class="fa fa-instagram"></i>
+      </a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
